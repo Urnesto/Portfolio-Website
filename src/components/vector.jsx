@@ -30,7 +30,11 @@ const Vector = ({ index }) => {
             </h3>
           </div>
           <div className="lg:max-w-lg w-full h-full">
+<<<<<<< HEAD
             <img src={ernest} className=" w-full h-full"></img>
+=======
+            <img src={ernest} alt="img" className=" w-full h-full"></img>
+>>>>>>> a1fdcad (added fonts)
           </div>
         </div>
       </div>
