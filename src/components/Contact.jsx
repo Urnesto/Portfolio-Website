@@ -2,7 +2,8 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
-import { fadeIn, textVariant, staggerContainer } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
+import { msg } from "../assets";
 const Contact = () => {
   const form = useRef();
 
@@ -103,11 +104,14 @@ const Contact = () => {
               {error && <div className="text-red-500">{error}</div>}
             </div>
             <div>
-              <input
-                className="w-full lg:w-20 h-10 my-2 text-black bg-white"
+              <button
+                className="w-full flex flex-row items-center justify-center lg:w-20 h-10 my-2 text-xl text-black bg-white "
                 type="submit"
                 value="Send"
-              />
+              >
+                Send
+                <img className="w-6 h-6 " src={msg} alt="send" />
+              </button>
             </div>
           </div>
         </form>

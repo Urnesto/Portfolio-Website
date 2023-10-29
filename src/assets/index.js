@@ -14,6 +14,7 @@ import todo from "./projects/to-do.png";
 import blog from "./projects/blog.png";
 import git from "./icons/git.svg";
 import web from "./icons/web.svg";
+import msg from "./icons/msg.svg";
 export {
   menu,
   close,
@@ -31,4 +32,5 @@ export {
   blog,
   git,
   web,
+  msg,
 };
