@@ -1,0 +1,23 @@
+.hoverable-letter {
+  display: inline-block;
+}
+
+.hoverable-letter:hover {
+  animation: letterHover 1s alternate infinite;
+  color: #6f3df4;
+}
+
+@keyframes letterHover {
+  30% {
+    transform: scaleY(0.9);
+  }
+  60% {
+    transform: scaleY(1);
+  }
+  90% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
