@@ -74,13 +74,7 @@ const Navbar = () => {
                     // id={navmob.id}
                     key={navmob.id}
                     className={`${
-<<<<<<< HEAD
-                      active === navmob.title
-                        ? "text-french"
-                        : "text-eerieBlack"
-=======
                       active === navmob.title ? "text-french" : "text-erieBlack"
->>>>>>> a1fdcad (added fonts)
                     } text-7xl font-bold font-arenq 
                       uppercase tracking-wider cursor-pointer`}
                     onClick={() => {

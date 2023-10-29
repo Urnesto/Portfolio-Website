@@ -27,15 +27,9 @@ const ProjectCard = ({
     >
       <div className="flex  items-center rounded-md p-4 justify-between w-full h-16 bg-flashPurple">
         <div className="flex text-sm lg:text-lg font-semibold flex-row">
-<<<<<<< HEAD
-          <h5>{position}</h5>
-          &nbsp;<p>|| </p>&nbsp;
-          <h5>{name}</h5>
-=======
           <p>{position}</p>
           &nbsp;<p>|| </p>&nbsp;
           <p>{name}</p>
->>>>>>> a1fdcad (added fonts)
         </div>
         <div className="text-sm lg:text-lg font-semibold">{date}</div>
       </div>
