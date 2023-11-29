@@ -11,6 +11,8 @@ import {
   css,
   blog,
   todo,
+  tele,
+  dxc,
 } from "../assets";
 
 export const navLinks = [
@@ -71,19 +73,19 @@ const experience = [
     id: "project-1",
     position: "Software engineer",
     name: "IT FORCES",
-    date: "2019-2020",
+    date: "2023/03-2023/06",
     description: [
       {
         id: "1",
-        name: "Developing and maintaining user interfaces for web-based applications and websites ",
+        name: "Built responsive websites using semantic HTML5, JavaScript, ReactJS, and SCSS compiled using maven and webpack build tools",
       },
       {
         id: "2",
-        name: "Wrote clean and maintainable code by following code writing best practices and maintaining code style consistencies",
+        name: "Experience in Routing, Navigation, Form handling, Validation, Git, Trello",
       },
       {
         id: "3",
-        name: "Successfully identified, diagnosed, and fixed website problems, including broken links, typographical errors, and formatting issues",
+        name: "React/Redux Toolkit: functional components, React Router, styled components etc",
       },
     ],
     icon: IT_Forces,
@@ -92,32 +94,21 @@ const experience = [
         id: "1",
         name: "Javascript",
       },
-      { id: "2", name: "Javascript" },
-      { id: "3", name: "React" },
-      { id: "4", name: "Redux" },
-      { id: "5", name: "Tailwind" },
+      {},
     ],
   },
   {
     id: "project-2",
-    position: "Software engineer",
-    name: "IT FORCES",
-    date: "2019-2020",
+    position: "Polish Help Desk Technician",
+    name: "DXC Technology",
+    date: "2022/10 –2023/02",
     description: [
       {
         id: "1",
-        name: "Developing and maintaining user interfaces for web-based applications and websites ",
-      },
-      {
-        id: "2",
-        name: "Wrote clean and maintainable code by following code writing best practices and maintaining code style consistencies",
-      },
-      {
-        id: "3",
-        name: "Successfully identified, diagnosed, and fixed website problems, including broken links, typographical errors, and formatting issues",
+        name: "Answer user inquiries regarding computer software or hardware operation to resolve problems.",
       },
     ],
-    icon: IT_Forces,
+    icon: dxc,
     tags: [
       {
         id: "1",
@@ -131,33 +122,23 @@ const experience = [
   },
   {
     id: "project-3",
-    position: "Software engineer",
-    name: "IT FORCES",
+    position: "Web Developer / Intern",
+    name: "UAB Telekomunikaciniai projektai.",
     date: "2019-2020",
     description: [
       {
         id: "1",
-        name: "Developing and maintaining user interfaces for web-based applications and websites ",
-      },
-      {
-        id: "2",
-        name: "Wrote clean and maintainable code by following code writing best practices and maintaining code style consistencies",
-      },
-      {
-        id: "3",
-        name: "Successfully identified, diagnosed, and fixed website problems, including broken links, typographical errors, and formatting issues",
+        name: "● Designed and developed a small promotional website for the company using JavaScript and PHP ",
       },
     ],
-    icon: IT_Forces,
+    icon: tele,
     tags: [
       {
         id: "1",
         name: "Javascript",
       },
       { id: "2", name: "Javascript" },
-      { id: "3", name: "React" },
-      { id: "4", name: "Redux" },
-      { id: "5", name: "Tailwind" },
+      { id: "3", name: "Php" },
     ],
   },
 ];

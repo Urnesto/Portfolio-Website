@@ -14,6 +14,8 @@ import back from "./icons/back.svg";
 import ernest from "./icons/ernest.svg";
 import todo from "./projects/to-do.png";
 import blog from "./projects/blog.png";
+import dxc from "./icons/dxc.svg";
+import tele from "./icons/tele.svg";
 import git from "./icons/git.svg";
 import web from "./icons/web.svg";
 import msg from "./icons/msg.svg";
@@ -37,4 +39,6 @@ export {
   git,
   web,
   msg,
+  tele,
+  dxc,
 };
