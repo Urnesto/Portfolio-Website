@@ -8,7 +8,9 @@ import tailwind from "./icons/tailwind.svg";
 import html from "./icons/html.svg";
 import css from "./icons/css.svg";
 import IT_Forces from "./icons/IT_Forces.jpeg";
-import xa from "./projects/xa.png";
+import tmpl from "./projects/tmpl.png";
+import tmpl_two from "./projects/tmpl_two.png";
+import back from "./icons/back.svg";
 import ernest from "./icons/ernest.svg";
 import todo from "./projects/to-do.png";
 import blog from "./projects/blog.png";
@@ -17,11 +19,13 @@ import web from "./icons/web.svg";
 import msg from "./icons/msg.svg";
 export {
   menu,
+  back,
   close,
   frontend,
   backend,
   IT_Forces,
-  xa,
+  tmpl,
+  tmpl_two,
   ernest,
   javascript,
   next,

@@ -2,7 +2,8 @@ import {
   frontend,
   backend,
   IT_Forces,
-  xa,
+  tmpl,
+  tmpl_two,
   javascript,
   next,
   tailwind,
@@ -164,8 +165,8 @@ const experience = [
 const projects = [
   {
     id: "1",
-    title: "templ fitness1",
-    icon: xa,
+    title: "Tmpl fitness",
+    icon: tmpl,
   },
   {
     id: "2",
@@ -183,22 +184,22 @@ const imageNames = [
   {
     id: 1,
     name: "TMPL Fitness",
-    data: "Some data about my proejct ,  Flight Local is a rapidly growing Bangladesh based company who dominates the online travel & tourism trade. They offer prompt visa service, varieties of ticketing options, multiple lists for short & long holiday plans, group tour packages, endless hotel lists as per requirements.",
-    images: [{ icon: xa }, { icon: xa }, { icon: xa }],
+    data: "Some landing page for gym using tailwind and react.",
+    images: [{ icon: tmpl }, { icon: tmpl_two }],
     git: "https://github.com/Urnesto/tmpl_fitnes",
     web: "https://tmpl-fitnes-git-main-urnesto.vercel.app/",
   },
   {
     id: 2,
-    name: "Image Name 2",
-    data: "Some data about my proejct ,  Flight Local is a rapidly growing Bangladesh based company who dominates the online travel & tourism trade. They offer prompt visa service, varieties of ticketing options, multiple lists for short & long holiday plans, group tour packages, endless hotel lists as per requirements.",
+    name: "Blog",
+    data: "Blog build using Mern stack.",
     images: [{ icon: blog }],
     git: "https://github.com/Urnesto/Blog-frontend",
   },
   {
     id: 3,
     name: "Todo app",
-    data: "Some data about my proejct ,  Flight Local is a rapidly growing Bangladesh based company who dominates the online travel & tourism trade. They offer prompt visa service, varieties of ticketing options, multiple lists for short & long holiday plans, group tour packages, endless hotel lists as per requirements.",
+    data: "Simple Todo app build using react and local server. ",
     images: [{ icon: todo }],
     git: "https://github.com/Urnesto/Todo-app",
   },
