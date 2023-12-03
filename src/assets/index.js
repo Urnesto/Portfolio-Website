@@ -19,6 +19,7 @@ import tele from "./icons/tele.gif";
 import git from "./icons/git.svg";
 import web from "./icons/web.svg";
 import msg from "./icons/msg.svg";
+import linkedin from "./icons/linkedin.svg";
 export {
   menu,
   back,
@@ -41,4 +42,5 @@ export {
   msg,
   tele,
   dxc,
+  linkedin,
 };

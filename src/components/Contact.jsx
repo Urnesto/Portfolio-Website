@@ -56,7 +56,9 @@ const Contact = () => {
       <div id="contact"></div>
       <div className="lg:w-1/2 space-y-4">
         <motion.div variants={textVariant()} className="m-5">
-          <h1 className="text-6xl font-semibold font-poppins">Contact</h1>
+          <h1 className="text-5xl font-semibold font-poppins my-4">
+            {"//Contact"}
+          </h1>
           <h4 className="text-french font-poppins">
             Get in touch or shoot me an email directly on{" "}
             <span className="text-white font-poppins font-semibold">

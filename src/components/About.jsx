@@ -25,8 +25,8 @@ const About = () => {
     <div id="about" className=" flex items-center flex-col">
       <motion.div variants={textVariant()}>
         <div className="space-y-6 max-w-3xl font-semibold font-poppins ">
-          <h1 className="text-6xl font-semibold text-center  tracking-wide ">
-            Skills
+          <h1 className="text-5xl font-semibold text-center  tracking-wide ">
+            {"//Skills"}
           </h1>
           <p className="text-center text-lg">
             The main area of expertise is front end development (client side of

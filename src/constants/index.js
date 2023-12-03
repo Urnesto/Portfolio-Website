@@ -18,15 +18,15 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "//About",
   },
   {
     id: "projects",
-    title: "Projects",
+    title: "//Projects",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "//Contact",
   },
 ];
 export const services = [
@@ -99,9 +99,9 @@ const experience = [
   },
   {
     id: "project-2",
-    position: "Polish Help Desk Technician",
+    position: "Help Desk Technician",
     name: "DXC Technology",
-    date: "2022/10 –2023/02",
+    date: "2022/10–2023/02",
     description: [
       {
         id: "1",
@@ -124,7 +124,7 @@ const experience = [
     id: "project-3",
     position: "Web Developer / Intern",
     name: "UAB Telekomunikaciniai projektai.",
-    date: "2019-2020",
+    date: "2019/07-2020/10",
     description: [
       {
         id: "1",
@@ -147,17 +147,27 @@ const projects = [
   {
     id: "1",
     title: "Tmpl fitness",
+    data: "Some landing page for gym using tailwind and react.",
+    tags: ["React", "Tailwind"],
     icon: tmpl,
+    git: "https://github.com/Urnesto/tmpl_fitnes",
+    web: "https://tmpl-fitnes-git-main-urnesto.vercel.app/",
   },
   {
     id: "2",
     title: "Blog app",
+    data: "Blog build using Mern stack.",
+    tags: ["React", "Node.Js", "MongoDB", "Express.js"],
     icon: blog,
+    git: "https://github.com/Urnesto/Blog-frontend",
   },
   {
     id: "3",
     title: "To-Do app",
+    data: "Simple Todo app build using react and local server. ",
+    tags: ["React", "Tailwind"],
     icon: todo,
+    git: "https://github.com/Urnesto/Todo-app",
   },
 ];
 
@@ -166,7 +176,7 @@ const imageNames = [
     id: 1,
     name: "TMPL Fitness",
     data: "Some landing page for gym using tailwind and react.",
-    images: [{ icon: tmpl }, { icon: tmpl_two }],
+    images: { icon: tmpl },
     git: "https://github.com/Urnesto/tmpl_fitnes",
     web: "https://tmpl-fitnes-git-main-urnesto.vercel.app/",
   },

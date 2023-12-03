@@ -5,6 +5,7 @@ import {
   Projects,
   Vector,
   Contact,
+  Footer,
 } from "../components";
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
+      <Footer />
     </>
   );
 }

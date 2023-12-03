@@ -25,13 +25,13 @@ const ProjectCard = ({
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       onClick={toggleOpen}
     >
-      <div className="flex  items-center rounded-md p-4 justify-between w-full h-16 bg-flashPurple">
-        <div className="flex text-sm lg:text-lg font-semibold flex-row">
+      <div className="flex  items-center rounded-md p-2 justify-between w-full h-16 bg-flashPurple">
+        <div className="flex text-xs lg:text-lg font-semibold flex-row">
           <p>{position}</p>
-          &nbsp;<p>|| </p>&nbsp;
+          &nbsp;<span>||</span> &nbsp;
           <p>{name}</p>
         </div>
-        <div className="text-sm lg:text-lg font-semibold">{date}</div>
+        <div className="text-xs lg:text-lg ">{date}</div>
       </div>
       {isOpen ? (
         <div className="my-4 w-full h-fit rounded-md p-7 bg-darkPurple">
@@ -81,8 +81,8 @@ const Experience = () => {
     <div className="flex flex-col items-center justify-center">
       <motion.div variants={textVariant()}>
         <div className="max-w-md">
-          <h1 className="text-4xl lg:text-6xl text-center font-poppins font-semibold">
-            Professional Experience
+          <h1 className="text-4xl lg:text-5xl text-center font-poppins font-semibold">
+            {"//Professional Experience"}
           </h1>
         </div>
       </motion.div>
